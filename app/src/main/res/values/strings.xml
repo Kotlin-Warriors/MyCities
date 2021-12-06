@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyCities</string>
+    <string name="danubio_title">El Danubio</string>
+    <string name="danubio_description">La reserva natural el Danubio es en definitiva un paraíso. Para llegar puedes ir en carro, cuenta con una vía sin pavimentar pero ver el paisaje de selva tropical y su rio a mano izquierda valen la pena al 100%.</string>
+    <string name="image_description">El Danubio</string>
+    <string name="txt_interest">Sitios que puedes visitar:\n - Cascada de la sirena. \n - Cañón de anchicayá. \n - Los siete pozos.</string>
+    <string name="txt_temperature">26°C/ 78°F</string>
+    <string name="txt_ubication">Ubicación:\nDagua, Valle del Cauca.</string>
+</resources>
