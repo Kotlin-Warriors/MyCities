@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_image_description">Card image</string>
+    <string name="short_description">Short description of POI</string>
+    <string name="rating_card">Cities rating</string>
+</resources>

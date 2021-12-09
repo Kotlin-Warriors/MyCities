@@ -6,4 +6,7 @@
     <string name="txt_interest">Sitios que puedes visitar:\n - Cascada de la sirena. \n - Cañón de anchicayá. \n - Los siete pozos.</string>
     <string name="txt_temperature">26°C/ 78°F</string>
     <string name="txt_ubication">Ubicación:\nDagua, Valle del Cauca.</string>
+    <string name="card_image_description">Card image</string>
+    <string name="short_description">Short description of POI</string>
+    <string name="rating_card">Cities rating</string>
 </resources>

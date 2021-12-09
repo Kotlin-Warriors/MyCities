@@ -14,17 +14,17 @@
         <!-- Customize your theme here. -->
     </style>
     <style name="Title_text">
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="Normal_text">
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/purple_700</item>
         <item name="android:textStyle">italic</item>
     </style>
     <style name="Subtitle_text">
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/purple_700</item>
         <item name="android:textStyle">bold</item>
     </style>
