@@ -1,4 +1,4 @@
-package com.example.mycities
+package com.example.mycities.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,10 +6,13 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mycities.R
+import com.example.mycities.model.CityItem
 import com.squareup.picasso.Picasso
 
 class CitiesAdapter(
-    private val citiesList: ArrayList<CityItem>
+    private val citiesList: ArrayList<CityItem>,
+    private val onItemClicked: (CityItem) -> Unit
 ) : RecyclerView.Adapter<CitiesAdapter.CityViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CityViewHolder {
@@ -20,6 +23,7 @@ class CitiesAdapter(
 
     override fun onBindViewHolder(holder: CityViewHolder, position: Int) {
         val city = citiesList[position]
+        holder.itemView.setOnClickListener { onItemClicked(citiesList[position]) }
         holder.bind(city)
     }
 

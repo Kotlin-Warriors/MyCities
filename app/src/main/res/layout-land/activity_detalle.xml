@@ -9,10 +9,10 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".MainActivity">
+        tools:context=".detalle.DetalleActivity">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/name_textView"
             style="@style/Title_text"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
@@ -22,11 +22,11 @@
             android:text="@string/danubio_title"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/img_danubio"
+            app:layout_constraintStart_toEndOf="@+id/img_POI"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/img_danubio"
+            android:id="@+id/img_POI"
             android:layout_width="262dp"
             android:layout_height="363dp"
             android:layout_marginStart="8dp"
@@ -51,8 +51,8 @@
             android:text="@string/danubio_description"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/img_danubio"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toEndOf="@+id/img_POI"
+            app:layout_constraintTop_toBottomOf="@+id/name_textView" />
 
         <TextView
             android:id="@+id/txt_interest"
@@ -63,7 +63,7 @@
             android:layout_marginTop="32dp"
             android:text="@string/txt_interest"
             android:textAlignment="textStart"
-            app:layout_constraintStart_toEndOf="@+id/img_danubio"
+            app:layout_constraintStart_toEndOf="@+id/img_POI"
             app:layout_constraintTop_toBottomOf="@+id/txt_description" />
 
         <TextView
@@ -82,9 +82,9 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_description" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txt_location"
             style="@style/Normal_text"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
