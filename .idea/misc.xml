@@ -3,13 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout-land/activity_detalle.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-land/activity_detalle.xml" value="0.33" />
         <entry key="app/src/main/res/layout-land/activity_list_cities.xml" value="0.125" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_detalle.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_list_cities.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/card_view_city_item.xml" value="0.22" />
+        <entry key="mycities/src/main/res/layout-land/activity_main.xml" value="0.13645833333333332" />
+        <entry key="mycities/src/main/res/layout-land/card_view_city_item.xml" value="0.33" />
+        <entry key="mycities/src/main/res/layout-land/fragment_detail.xml" value="0.25" />
+        <entry key="mycities/src/main/res/layout-land/fragment_list.xml" value="0.13645833333333332" />
+        <entry key="mycities/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="mycities/src/main/res/layout/card_view_city_item.xml" value="0.19322916666666667" />
+        <entry key="mycities/src/main/res/layout/fragment_detail.xml" value="0.19322916666666667" />
+        <entry key="mycities/src/main/res/layout/fragment_list.xml" value="0.19322916666666667" />
+        <entry key="mycities/src/main/res/menu/overflow_menu.xml" value="0.19322916666666667" />
+        <entry key="mycities/src/main/res/xml/root_preferences.xml" value="0.19322916666666667" />
       </map>
     </option>
   </component>

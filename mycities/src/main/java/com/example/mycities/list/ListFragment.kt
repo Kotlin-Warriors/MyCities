@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mycities.databinding.FragmentListBinding
+import com.example.mycities.main.MainActivity
 import com.example.mycities.model.City
 import com.example.mycities.model.CityItem
 import com.google.gson.Gson
@@ -29,6 +30,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         listCities = loadMockCitiesFromJson()
         citiesAdapter =
             CitiesAdapter(listCities, onItemClicked = { onCityClicked(it) })

@@ -7,12 +7,18 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.example.mycities.databinding.FragmentDetailBinding
+import com.example.mycities.main.MainActivity
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        (activity as MainActivity?)?.showIcon()
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
