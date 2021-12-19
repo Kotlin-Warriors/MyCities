@@ -29,6 +29,12 @@ class CitiesAdapter(
 
     override fun getItemCount(): Int = citiesList.size
 
+    fun appendItems(newItems: ArrayList<CityItem>) {
+        citiesList.clear()
+        citiesList.addAll(newItems)
+        notifyDataSetChanged()
+    }
+
     class CityViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var nameTextView: TextView = itemView.findViewById(R.id.name_text_view)
         private var descriptionTextView: TextView =

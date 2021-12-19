@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mycities.databinding.FragmentListBinding
@@ -16,14 +17,16 @@ import com.google.gson.Gson
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
+    private lateinit var listViewModel : ListViewModel
     private lateinit var citiesAdapter: CitiesAdapter
-    private lateinit var listCities: ArrayList<CityItem>
+    private var listCities: ArrayList<CityItem> = ArrayList()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         listBinding = FragmentListBinding.inflate(inflater, container, false)
+        listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
 
         return listBinding.root
     }
@@ -31,7 +34,12 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listCities = loadMockCitiesFromJson()
+        listViewModel.loadMockCitiesFromJson(context?.assets?.open("mock_cities.json"))
+
+        listViewModel.onCitiesLoaded.observe(viewLifecycleOwner, { result ->
+            onCitiesLoadedSubscribe(result)
+        })
+
         citiesAdapter =
             CitiesAdapter(listCities, onItemClicked = { onCityClicked(it) })
         listBinding.citiesRecyclerView.apply {
@@ -41,17 +49,14 @@ class ListFragment : Fragment() {
         }
     }
 
-    private fun onCityClicked(city: CityItem) {
-        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(city = city))
+    private fun onCitiesLoadedSubscribe(listCity: ArrayList<CityItem>?) {
+        listCity?.let { listCities ->
+            citiesAdapter.appendItems(listCities)
+        }
     }
 
-    private fun loadMockCitiesFromJson(): ArrayList<CityItem> {
-        val citiesString: String = context?.assets?.open("mock_cities.json")?.bufferedReader()
-            .use { it!!.readText() } //TODO reparar
-        val gson = Gson()
-        val data = gson.fromJson(citiesString, City::class.java)
-
-        return data
+    private fun onCityClicked(city: CityItem) {
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(city = city))
     }
 
 }
