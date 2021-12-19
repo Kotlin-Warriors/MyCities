@@ -83,42 +83,6 @@
 			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/nva-768x510.png",
 			"latitude": 3.232376,
 			"length": -75.1775488
-		},
-		{
-			"name": "Puerto Nariño",
-			"description": "Es el claro ejemplo de cómo los humanos pueden vivir en paz con la naturaleza...",
-			"long_description": "Un pequeño pueblo también a orillas del Río Amazonas que es el claro ejemplo de cómo los humanos pueden vivir en paz con la naturaleza. En Puerto Nariño no hay carros ni motos, todo el pueblo se recorre a pie, y hay un mirador para disfrutar la espectacular vista que este pueblo tiene para ofrecer.",
-			"rating": "Puntaje\n⭐⭐⭐⭐",
-			"interest_places": "Sitios para visitar:\n - Museo de la fundación Natütama.\n - Lago Tarapoto.\n - Aguas Rojas.",
-			"temperature": "Temperatura\n26°C/ 79°F",
-			"location": "Ubicación:\nA 75 km de Leticia.",
-			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/puertos_narino-768x511.png",
-			"latitude": -3.79009,
-			"length": -70.3609774
-		},
-		{
-			"name": "Santuario de las Lajas",
-			"description": "El Santuario de las Lajas es una iglesia católica ubicada sobre el cañón del río Guáitara..",
-			"long_description": "El Santuario de las Lajas es una iglesia católica ubicada en Ipiales, sobre el cañón del río Guáitara, muy cercana a la frontera con Ecuador. La construcción es de estilo neogótico y está hecha en piedra gris y blanca. Ha sido catalogada como una de las iglesias más bonitas del mundo por el diario británico The Telegraph. Hoy en día es uno de los principales sitios turísticos del departamento de Nariño.",
-			"rating": "Puntaje\n⭐⭐⭐⭐⭐",
-			"interest_places": "Sitios para visitar:\n - Catedral de Ipiales.\n - Catedral de San Pedro Mártir.\n - Teleférico de Las Lajas.",
-			"temperature": "Temperatura\n18°C/ 64°F",
-			"location": "Ubicación:\nIpiales, Nariño.",
-			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/las-lajas-768x516.png",
-			"latitude": 0.8054536,
-			"length": -77.588047
-		},
-		{
-			"name": "Parque Natural Los Estoraques",
-			"description": "Alberga formaciones milenarias que han sido creadas a partir del viento y el agua...",
-			"long_description": "Esta área protegida de 6 km cuadrados de superficie, alberga formaciones milenarias que han sido creadas a partir del viento y el agua y que ha dado lugar a columnas, pedestales cuevas y cavernas, que forman un paisaje único de formas quebradizas y erosionadas.",
-			"rating": "Puntaje\n⭐⭐⭐⭐",
-			"interest_places": "Sitios para visitar:\n - Quebrada la Teneria.\n - Camino de la Virgen.\n - La Chorrera.",
-			"temperature": "Temperatura\n23°C/ 73°F",
-			"location": "Ubicación:\nLa Playa de Belén, Norte de Santander.",
-			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/Los_Estoraques_Norte_de_Santander_Colombia_by_Edgar-768x576.png",
-			"latitude": 8.220748,
-			"length": -73.2405682
 		}
 	]
 }
