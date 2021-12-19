@@ -20,5 +20,9 @@ data class CityItem(
     @SerializedName("temperature")
     val temperature: String,
     @SerializedName("urlPicture")
-    val urlPicture: String
+    val urlPicture: String,
+    @SerializedName("latitude")
+    val latitude: Float,
+    @SerializedName("length")
+    val length: Float
 ): Serializable

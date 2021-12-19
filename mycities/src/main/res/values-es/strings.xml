@@ -14,4 +14,5 @@
     <string name="notifications_sound">Activar sonido de notificaciones</string>
     <string name="title_notifications">Notificaciones</string>
     <string name="preferences">Ajustes</string>
+    <string name="map_icon">Map icon</string>
 </resources>
