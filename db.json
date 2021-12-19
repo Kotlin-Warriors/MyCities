@@ -59,30 +59,6 @@
 			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/h11-1024x478-1-768x359.png",
 			"latitude": 5.9009681,
 			"length": -74.8591257
-		},
-		{
-			"name": "Cerro Azul",
-			"description": "Cerro Azul, una montaña que sobresale entre la selva...",
-			"long_description": "A 47 Km de San José del Guaviare está ubicado Cerro Azul, una montaña que sobresale entre la selva, y con toda razón, ya que en ella se observan una serie de pinturas rupestres que conforman un hermoso mural de color rojizo y de gran valor histórico.",
-			"rating": "Puntaje\n⭐⭐⭐",
-			"interest_places": "Sitios para visitar:\n - Parque Primero De Mayo.\n - Río las Lajas.\n - Piedra Labrada.",
-			"temperature": "Temperatura\n23°C/ 73°F",
-			"location": "Ubicación:\nSerranía de La Lindosa, Guaviare.",
-			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/15pinturascerroazul-768x512.jpg",
-			"latitude": 1.2691666,
-			"length": -72.6193104
-		},
-		{
-			"name": "Desierto de la Tatacoa",
-			"description": "Estar en el desierto de la Tatacoa es una experiencia inolvidable...",
-			"long_description": "A pocas horas de Neiva, se encuentran los espectaculares paisajes llenos de colores rojo, naranja y terracota adornados por los cactus, por momentos hacen sentir al visitante que está en otro planeta. En las noches, el cielo estrellado ofrece un espectáculo sin igual.",
-			"rating": "Puntaje\n⭐⭐⭐⭐",
-			"interest_places": "Sitios para visitar:\n - Sendero Cuzco.\n - Los Hoyos.\n - Xilópalos.",
-			"temperature": "Temperatura\n29°C/ 84°F",
-			"location": "Ubicación:\n38 kilómetros de la ciudad de Neiva.",
-			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/nva-768x510.png",
-			"latitude": 3.232376,
-			"length": -75.1775488
 		}
 	]
 }
