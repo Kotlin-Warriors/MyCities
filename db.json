@@ -131,18 +131,6 @@
 			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/ballenas-jorobadas-768x514.png",
 			"latitude": 6.0208234,
 			"length": -77.2361917
-		},
-		{
-			"name": "Ciudad Perdida (Teyuna)",
-			"description": "El Parque Arqueológico de Ciudad Perdida (Teyuna), es considerado como patrimonio de la humanidad...",
-			"long_description": "Encontramos en el Parque ruinas reconstruidas de los poblados prehistóricos que son una muestra de la sofisticada arquitectura e ingeniería de piedra que incluye terrazas, muros de contención, caminos, puentes, escaleras y canales. Numerosos grupos indígenas habitaban el litoral costero y la Sierra Nevada de Santa Marta en el siglo XVI.",
-			"rating": "Puntaje\n⭐⭐⭐⭐⭐",
-			"interest_places": "Sitios para visitar:\n - Filo Cartagena.\n - Alto de Mira.\n - Cabildo indígena.",
-			"temperature": "Temperatura\n20°C/ 68°F",
-			"location": "Ubicación:\nSierra Nevada de Santa Marta.",
-			"urlPicture": "https://www.colombia.co/wp-content/uploads/2017/09/sierra_nevada_sta_marta-768x506.png",
-			"latitude": 11.0383982,
-			"length": -73.9273218
 		}
 	]
 }
