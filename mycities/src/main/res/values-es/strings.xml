@@ -6,7 +6,7 @@
     <string name="image_description">El Danubio</string>
     <string name="txt_interest">Sitios que puedes visitar:\n - Cascada de la sirena. \n - Cañón de anchicayá. \n - Los siete pozos.</string>
     <string name="txt_temperature">26°C/ 78°F</string>
-    <string name="txt_ubication">Ubicación:\nDagua, Valle del Cauca.</string>
+    <string name="txt_location">Ubicación:\nDagua, Valle del Cauca.</string>
     <string name="card_image_description">Imagen en la tarjeta</string>
     <string name="short_description">Pequeña descripcion del SDI</string>
     <string name="rating_card">Calificación de la ciudad</string>

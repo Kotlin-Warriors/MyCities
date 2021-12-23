@@ -5,8 +5,8 @@
     <string name="danubio_description">El Danubio Nature Reserve is definitely a paradise. To get there you can go by car, it has an unpaved road but seeing the tropical jungle landscape and its river on the left are 100% worth it.</string>
     <string name="image_description">El Danubio</string>
     <string name="txt_interest">Places you can visit: \ n - Cascada de la Sirena. \ n - Anchicayá Canyon. \ n - The seven wells.</string>
-    <string name="txt_temperature">26°C/ 78°F</string>
-    <string name="txt_ubication">Location:\nDagua, Valle del Cauca.</string>
+    <string name="txt_temperature">Temperature:\n26°C/ 78°F</string>
+    <string name="txt_location">Location:\nDagua, Valle del Cauca.</string>
     <string name="card_image_description">Card image</string>
     <string name="short_description">Short description of POI</string>
     <string name="rating_card">Cities rating</string>
